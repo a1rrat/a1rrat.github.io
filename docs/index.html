@@ -1,33 +1,45 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="theme-color" content="#f5f4f0">
-    <meta name="description" content="Личный сайт Айрата Садыкова. Скоро здесь появятся проекты и истории.">
-    <title>Айрат Садыков — скоро</title>
-    <style>
-      :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #202b39; background: #f5f4f0; }
-      * { box-sizing: border-box; }
-      body { margin: 0; min-height: 100svh; display: grid; place-items: center; padding: 32px 24px; }
-      main { width: min(100%, 760px); padding: 64px 0; }
-      .address { margin: 0 0 64px; font-size: 14px; letter-spacing: .08em; color: #5c6572; }
-      .status { display: inline-flex; align-items: center; gap: 10px; margin: 0 0 24px; font-size: 14px; color: #315783; }
-      .status::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
-      h1 { margin: 0; font-size: clamp(40px, 7vw, 72px); font-weight: 550; line-height: 1.08; letter-spacing: -.045em; overflow-wrap: anywhere; }
-      .intro { max-width: 540px; margin: 28px 0 0; font-size: clamp(18px, 3vw, 23px); line-height: 1.55; color: #5c6572; }
-      footer { margin-top: 80px; padding-top: 24px; border-top: 1px solid #d8dbe0; font-size: 14px; color: #5c6572; }
-      @media (max-width: 480px) { main { padding: 24px 0; } .address { margin-bottom: 48px; } footer { margin-top: 56px; } }
-    </style>
-  </head>
-  <body>
-    <main>
-      <p class="address">a1rrat.github.io</p>
-      <p class="status">Сайт в процессе</p>
-      <h1>Привет, я<br>Айрат Садыков.</h1>
-      <p class="intro">Скоро здесь появятся мои проекты и истории. А пока — до скорой встречи.</p>
-      <footer>Личный сайт · Айрат Садыков</footer>
-    </main>
-  </body>
-</html>
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Айрат Садыков · Технологический предприниматель</title>
+<meta name="description" content="Создаю продукты с ИИ и развиваю перспективные направления бизнеса. Мой опыт, подход и контакты для совместных проектов.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">К содержанию</a>
+<main id="main">
+<section class="hero wrap" aria-labelledby="name">
+  <div class="portrait-area"><div class="portrait"><img src="assets/ayrat-cutout.png" width="1024" height="1536" alt="Айрат Садыков" fetchpriority="high"></div><div class="student" role="group" aria-label="Студент МФТИ и Сколково"><span class="student-label">Студент</span><span class="school"><span class="school-icon"><img src="assets/logos/mipt.png" width="28" height="32" alt=""></span><span>МФТИ</span></span><span class="school"><span class="school-icon school-icon-skolkovo"><img src="assets/logos/skolkovo.png" width="38" height="28" alt=""></span><span>Сколково</span></span></div></div>
+  <div class="intro"><p class="eyebrow">Технологический предприниматель</p><h1 id="name">Айрат <br>Садыков</h1><p class="lead">Создаю продукты с ИИ и развиваю перспективные направления бизнеса.</p><p class="intro-note">Соединяю продуктовую работу, управление командами и умение разбираться в технической реализации.</p><p class="intro-interest">Рассматриваю инновационные проекты и задачи по развитию продуктов.</p><div class="hero-links"><a class="button" href="#experience">Посмотреть опыт ↓</a><a href="https://t.me/a1rrat" target="_blank" rel="noopener noreferrer">Telegram @a1rrat ↗</a><a href="mailto:a1rrat.sadykov@gmail.com">a1rrat.sadykov@gmail.com ↗</a></div></div>
+</section>
+
+<section class="capabilities wrap" aria-labelledby="cap-title"><div class="section-top"><h2 id="cap-title">От технологии к работе бизнеса</h2></div><div class="cap-grid">
+<article><span class="number">01</span><h3>Управление командами</h3><p>Более трёх лет управляю командами. Организую разработку: декомпозирую задачи, веду бэклог и планирую работу.</p><div class="skill-tags"><span>3+ года</span><span>Agile</span><span>Scrum</span><span>Kanban</span></div></article>
+<article><span class="number">02</span><h3>Экономика проектов</h3><p>Использую финансовый анализ, чтобы оценивать экономику решений и обосновывать инвестиции.</p><div class="skill-tags"><span>P&amp;L</span><span>Cash Flow</span><span>NPV / IRR</span><span>Юнит-экономика</span></div></article>
+<article><span class="number">03</span><h3>ИИ и техническая реализация</h3><p>Собираю прототипы и ИИ-агентов с фокусом на ценности для бизнеса. Автоматизирую процессы.</p><div class="skill-tags"><span>Python</span><span>SQL</span><span>LLM API</span><span>RAG</span></div></article>
+<article><span class="number">04</span><h3>Погружение в отрасль</h3><p>Смотрю на отрасли системно и с предпринимательской точки зрения. Фундаментальная подготовка помогает видеть возможности для новых продуктов.</p><div class="skill-tags"><span>Математика</span><span>Технологии</span><span>Бизнес</span></div></article>
+</div></section>
+
+<section class="section wrap" id="experience"><div class="section-top"><h2>Опыт</h2></div>
+<div class="featured">
+<article class="project tbank"><div class="project-head"><div class="company-heading"><img class="company-logo" src="assets/logos/tbank.svg" width="40" height="40" alt="" aria-hidden="true"><h3>Т-Банк</h3></div><span class="tag current">Сейчас</span></div><p class="role">MiniCEO / Co-product</p><p class="date">С июня 2026 года</p><p class="project-copy"><strong>Строю внутреннюю платформу полного цикла управления клиентским опытом:</strong> выявление проблем, приоритизация, работа команды разработки, внедрение решений и оценка их эффекта.</p><div class="project-facts"><p><strong>100+</strong><span>продуктов в компании</span></p><p><strong>Топ-10</strong><span>из 7000 кандидатов MiniCEO</span></p></div></article>
+<article class="project aiseo"><div class="project-head"><a class="company-heading company-name" href="https://www.aisegroup.ru/" target="_blank" rel="noopener noreferrer" aria-label="Аисео, сайт завершённого проекта"><img class="company-logo" src="assets/logos/aiseo.svg" width="40" height="40" alt="" aria-hidden="true"><h3>Аисео <span aria-hidden="true">↗</span></h3></a><span class="tag">Проект завершён</span></div><p class="role">Кофаундер, CEO</p><p class="date">С декабря 2025 по июль 2026 года</p><p class="project-copy">С командой <strong>прошёл путь от MVP и первых пилотов до продаж</strong> продукта для анализа видимости бизнеса в нейросетях.</p><p class="project-copy">Первую техническую версию собрал самостоятельно, автоматизировал сбор ответов моделей через веб-интерфейсы и API.</p><div class="project-facts"><p><strong>7</strong><span>пилотных запусков, в том числе 2 платящих клиента</span></p></div></article>
+</div>
+
+<div class="secondary-projects">
+<article class="insurance" aria-labelledby="insurance-title"><div class="project-head"><div class="company-heading"><span class="agent-mark" aria-hidden="true">AI</span><h3 id="insurance-title">ИИ-агенты для бизнеса</h3></div><span class="tag">Пилот в компании</span></div><p class="role">Полная техническая реализация</p><div class="insurance-body"><div><p class="project-copy"><strong>Собрал ИИ-агента для расчёта ОСАГО.</strong></p><p class="project-copy">По заданным параметрам клиента агент заполняет калькуляторы страховых компаний и возвращает доступные предложения менеджеру. Менеджер может сравнить условия и предложить клиенту подходящие варианты.</p></div><div class="insurance-fact"><strong>10</strong><span>сайтов страховых компаний в одном расчёте</span></div></div></article>
+
+<article class="yango"><div class="yango-intro"><div class="company-heading"><img class="company-logo" src="assets/logos/yango.svg" width="40" height="40" alt="" aria-hidden="true"><h3>Yango Buy&amp;Sell</h3></div><p class="role">Менеджер в операционном блоке</p><p class="date">С июня по сентябрь 2025 года</p><p><strong>Перестроил работу клиентской поддержки маркетплейса.</strong> Работал с аналитикой обращений, антифродом и операционными расходами.</p></div><div class="yango-metrics"><div><strong>10</strong><span>человек в команде поддержки</span></div><div><strong>В 6 раз</strong><span>сократил среднее время решения обращения</span></div><div><strong>−52%</strong><span>стоимость логистики на заказ</span></div></div></article>
+</div>
+
+<div class="other-exp"><article><h3>Comind.space</h3><p class="role">Бизнес-аналитик</p><p><strong>Реализовывал пилоты</strong>, разрабатывал пользовательские сценарии, логику платформы и архитектуру данных для проекта цифровизации агрообъекта.</p></article><article><h3>Tom Tailor</h3><p class="role">Аналитик маркетплейсов</p><p><strong>Автоматизировал операционные процессы компании</strong> с помощью готовых ИИ-решений. Прогнозировал финансовые показатели компании.</p></article><article><h3>Практикум, Сколково</h3><p class="role">Модератор</p><p><strong>Вёл и модерировал групповую работу предпринимателей</strong>, проводил деловые игры и разбирал сложные ситуации.</p></article></div>
+</section>
+
+<section class="social section" id="social"><div class="wrap"><div class="section-top"><h2>Социальные и благотворительные проекты</h2></div><div class="social-grid"><article><span class="number">01</span><a class="social-project-name" href="https://big-heroes.ru/" target="_blank" rel="noopener noreferrer"><img class="social-project-logo" src="assets/logos/heroes.webp" width="480" height="240" alt="" aria-hidden="true" loading="lazy"><h3>Большие маленькие герои ONLINE <span aria-hidden="true">↗</span></h3></a><p>Лидер образовательного проекта об историях детей, ставших героями Великой Отечественной войны. Развивал стендовую экспозицию и её онлайн-формат для разных площадок.</p></article><article><span class="number">02</span><a class="social-project-name" href="https://www.skolkovo.ru/events/konkurs-grantov-na-obuchenie-v-biznes-bakalavriate-skolkovo/" target="_blank" rel="noopener noreferrer"><h3>Конкурс грантов<br>МФТИ и Сколково <span aria-hidden="true">↗</span></h3></a><p>Помогал развивать конкурс, через который сам получил возможность учиться. Участвовал в пересборке логики отбора и создал приложение с ИИ-ботами для прохождения заданий.</p></article></div></div></section>
+
+<section class="section wrap background" id="about"><div class="education"><h2>Образование</h2><h3 class="education-school">МФТИ × Сколково</h3><p>Управление инновациями в бизнесе в МФТИ и Bachelor of Business Administration в Московской школе управления «Сколково».</p><div class="edu-facts"><p><strong>1 место</strong><span>в рейтинге потока</span></p><p class="hackathon-fact"><strong>AI Hackathon</strong><span>Международный хакатон в Ташкенте, 2025. Лидировал команду бакалавриата.</span></p></div></div><div class="personal"><h2>Личное</h2><p>Родом из Набережных Челнов. Со школьных лет занимался олимпиадами по математике, физике и экономике, учился программированию в Академии Яндекса и запускал молодёжные проекты.</p><p>В прошлом получил первый дан по каратэ, сейчас увлекаюсь марафонами.</p><p>Мне интересны бизнес-экспедиции. Участвовал в поездке в Ташкент, а поездку в Индию организовал самостоятельно.</p><div class="interests"><span>Каратэ</span><span>Марафоны</span><span>Бизнес-экспедиции</span></div></div></section>
+
+<section class="contact" id="contact"><div class="wrap"><h2>Давай познакомимся</h2><p>Мне интересны технологические продукты и задачи на пересечении бизнеса и ИИ. Если видишь точку пересечения, напиши.</p><div class="contact-links"><a href="https://t.me/a1rrat" target="_blank" rel="noopener noreferrer">Telegram @a1rrat ↗</a><a href="mailto:a1rrat.sadykov@gmail.com">a1rrat.sadykov@gmail.com ↗</a></div></div></section>
+</main>
+</body></html>
