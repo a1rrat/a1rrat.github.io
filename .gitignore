@@ -1,0 +1,14 @@
+# Local research and temporary exports
+/tmp/
+/research/
+/private/
+/node_modules/
+/.codex/
+/.agents/
+/.openai/
+/.env
+/.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
